@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>EcoLand — Бережи природу</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f7f4;
+    color: #2f3e46;
+}
+
+header {
+    background: #2f855a;
+    color: white;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("https://images.unsplash.com/featured/?forest") center/cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    background: #68d391;
+    color: #1a202c;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #48bb78;
+    color: white;
+}
+
+section {
+    padding: 60px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #2f855a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    position: relative;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🌿 EcoLand</div>
+    <nav>
+        <a href="#">Головна</a>
+        <a href="#">Про нас</a>
+        <a href="#">Правила</a>
+        <a href="#">Контакти</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Бережи природу разом з EcoLand</h1>
+    <p>Наш сайт навчає безпечній поведінці в природі та допомагає зберегти екосистеми України.</p>
+    <a class="btn" href="#">Дізнатись більше</a>
+</div>
+
+<section>
+    <h2>Чому це важливо?</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>🌍 Чиста природа</h3>
+            <p>Збереження лісів, боліт і річок для майбутніх поколінь.</p>
+        </div>
+        <div class="card">
+            <h3>🛡 Безпека</h3>
+            <p>Правила поведінки допомагають уникнути небезпек.</p>
+        </div>
+        <div class="card">
+            <h3>🤝 Відповідальність</h3>
+            <p>Кожен може зробити свій внесок у захист довкілля.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 EcoLand | Бережи природу 💚
+    <span style="position:absolute; right:20px; bottom:10px; font-size:14px;">
+        Автор сайту: Денис Горбась
+    </span>
+</footer>
+
+</body>
+</html>
